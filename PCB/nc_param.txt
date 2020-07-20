@@ -17,5 +17,7 @@ HEADER                 none
 LEADER                 12
 CODE                   ASCII
 SEPARATE               NO
+SEPARATE-ROUTING       NO
 DRILLING               LAYER-PAIR
 BACKDRILL              NO
+CAVITY                 NO
