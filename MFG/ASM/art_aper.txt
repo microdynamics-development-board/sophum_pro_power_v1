@@ -1,0 +1,64 @@
+
+INPUT-UNITS     INCHES
+
+WHEEL     1
+
+CIRCLE          37.4            D10
+FLASH     FLASH-1R25-0R85      0.00000  D11
+CIRCLE         21.65            D12
+CIRCLE        102.36            D13
+FLASH     FLASH-2R60-2R20      0.00000  D14
+CIRCLE         94.49            D15
+CIRCLE         98.43            D16
+CIRCLE         70.87            D17
+FLASH     FLASH-1R80-1R40      0.00000  D18
+CIRCLE         62.99            D19
+CIRCLE         66.93            D20
+SQUARE         62.99   0.00000            D21
+SQUARE         66.93   0.00000            D22
+CIRCLE        110.24            D23
+FLASH     FLASH-2R80-2R40      0.00000  D24
+CIRCLE         106.3            D25
+RECTANGLE      39.37     27.56   0.00000  D26
+RECTANGLE      27.56     39.37   0.00000  D27
+RECTANGLE      43.31      31.5   0.00000  D28
+RECTANGLE       31.5     43.31   0.00000  D29
+SQUARE         66.14   0.00000            D30
+SQUARE         70.08   0.00000            D31
+RECTANGLE      23.62      9.45   0.00000  D32
+RECTANGLE       9.45     23.62   0.00000  D33
+RECTANGLE      27.56     13.39   0.00000  D34
+RECTANGLE      13.39     27.56   0.00000  D35
+RECTANGLE      78.74     47.24   0.00000  D36
+RECTANGLE      47.24     78.74   0.00000  D37
+RECTANGLE      82.68     51.18   0.00000  D38
+RECTANGLE      51.18     82.68   0.00000  D39
+RECTANGLE      66.93     51.18   0.00000  D40
+RECTANGLE      51.18     66.93   0.00000  D41
+RECTANGLE      70.87     55.12   0.00000  D42
+RECTANGLE      55.12     70.87   0.00000  D43
+RECTANGLE      64.17     35.43   0.00000  D44
+RECTANGLE      35.43     64.17   0.00000  D45
+RECTANGLE      68.11     39.37   0.00000  D46
+RECTANGLE      39.37     68.11   0.00000  D47
+RECTANGLE      72.83     15.75   0.00000  D48
+RECTANGLE      15.75     72.83   0.00000  D49
+RECTANGLE      76.77     19.69   0.00000  D50
+RECTANGLE      19.69     76.77   0.00000  D51
+SQUARE         20.08   0.00000            D52
+SQUARE         24.02   0.00000            D53
+RECTANGLE         50     44.88   0.00000  D54
+RECTANGLE      44.88        50   0.00000  D55
+RECTANGLE      53.94     48.82   0.00000  D56
+RECTANGLE      48.82     53.94   0.00000  D57
+LINE               6            D58
+LINE              25            D59
+LINE               4            D60
+LINE               8            D61
+LINE              10            D62
+LINE              20            D63
+LINE            5.91            D64
+LINE              18            D65
+LINE              22            D66
+LINE              30            D67
+
