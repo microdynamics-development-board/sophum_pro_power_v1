@@ -11,11 +11,13 @@
 *.lck*
 *.brd,*
 *.dra,*
-*.art,*
 *.txt,*
 *.dat,*
 *.dml,*
+*.drl,*
 *.iml,*
+*.art,*
+*.ipc,*
 *AUTOSAVE*
 *.jrl*
 */signoise.run
