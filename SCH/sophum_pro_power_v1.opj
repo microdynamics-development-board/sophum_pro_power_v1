@@ -95,9 +95,9 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "C:\users\abcd\documents\github\sophum_pro_power_v1\SCH\sophum_pro_power_v1.dsn"))
+      (Path "Design Resources" ".\sophum_pro_power_v1.dsn")
+      (Path "Design Resources" ".\sophum_pro_power_v1.dsn" "SCHEMATIC1")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -107,9 +107,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1182 26 288")
-        (Scroll "281 0")
-        (Zoom "124")
+        (Placement "44 0 1 -1 -1 -8 -31 26 1186 26 292")
+        (Scroll "560 1316")
+        (Zoom "200")
         (Occurrence "/"))
       (Path
          "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_PRO_POWER_V1\SCH\SOPHUM_PRO_POWER_V1.DSN")

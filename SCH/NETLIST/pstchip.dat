@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jul-19-2020 at 12:18:57}
+{ Using PSTWRITER 16.6.0 d001Jul-29-2020 at 12:06:16}
 primitive 'CAPACITOR-NON-POL_C0805_22UF';
   pin
     '1':
@@ -104,21 +104,27 @@ primitive 'USB_MICRO_USB-MICRO-5-SM_USB_MI';
     'ID':
       PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
-    'SH2':
+    'LP2':
       PIN_NUMBER='(7)';
-      PINUSE='POWER';
-    'SH1':
+      PINUSE='UNSPEC';
+    'LP1':
       PIN_NUMBER='(6)';
-      PINUSE='POWER';
+      PINUSE='UNSPEC';
     'GND':
       PIN_NUMBER='(5)';
       PINUSE='UNSPEC';
-    'SH3':
+    'LP3':
       PIN_NUMBER='(8)';
-      PINUSE='POWER';
-    'SH4':
+      PINUSE='UNSPEC';
+    'LP4':
       PIN_NUMBER='(9)';
-      PINUSE='POWER';
+      PINUSE='UNSPEC';
+    'LH1':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'LH2':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
   end_pin;
   body
     PART_NAME='USB_MICRO';
@@ -141,7 +147,7 @@ primitive 'INDUCTOR_PL-2-2R00X1R20-SM_2.2U';
     VALUE='2.2uH 5000mA';
   end_body;
 end_primitive;
-primitive 'RESISTOR_R0402_100K';
+primitive 'RESISTOR_R0402_10K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -153,10 +159,10 @@ primitive 'RESISTOR_R0402_100K';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='R0402';
-    VALUE='100K';
+    VALUE='10K';
   end_body;
 end_primitive;
-primitive 'RESISTOR_R0402_953K';
+primitive 'RESISTOR_R0402_95.3K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -168,10 +174,10 @@ primitive 'RESISTOR_R0402_953K';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='R0402';
-    VALUE='953K';
+    VALUE='95.3K';
   end_body;
 end_primitive;
-primitive 'RESISTOR_R0402_180K';
+primitive 'RESISTOR_R0402_18K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -183,10 +189,10 @@ primitive 'RESISTOR_R0402_180K';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='R0402';
-    VALUE='180K';
+    VALUE='18K';
   end_body;
 end_primitive;
-primitive 'RESISTOR_R0402_51K';
+primitive 'RESISTOR_R0402_4.99K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -198,10 +204,10 @@ primitive 'RESISTOR_R0402_51K';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='R0402';
-    VALUE='51K';
+    VALUE='4.99K';
   end_body;
 end_primitive;
-primitive 'RESISTOR_R0402_187K';
+primitive 'RESISTOR_R0402_18.7K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -213,10 +219,10 @@ primitive 'RESISTOR_R0402_187K';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='R0402';
-    VALUE='187K';
+    VALUE='18.7K';
   end_body;
 end_primitive;
-primitive 'RESISTOR_R0402_200K';
+primitive 'RESISTOR_R0402_20K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -228,10 +234,10 @@ primitive 'RESISTOR_R0402_200K';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='R0402';
-    VALUE='200K';
+    VALUE='20K';
   end_body;
 end_primitive;
-primitive 'RESISTOR_R0402_150K';
+primitive 'RESISTOR_R0402_15K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -243,10 +249,10 @@ primitive 'RESISTOR_R0402_150K';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='R0402';
-    VALUE='150K';
+    VALUE='15K';
   end_body;
 end_primitive;
-primitive 'RESISTOR_R0402_130K';
+primitive 'RESISTOR_R0402_13K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -258,25 +264,7 @@ primitive 'RESISTOR_R0402_130K';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='R0402';
-    VALUE='130K';
-  end_body;
-end_primitive;
-primitive 'SW-SPDT_SW-3-12R7X6R6_SW-SPDT';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='SW-SPDT';
-    JEDEC_TYPE='SW-3-12R7X6R6';
-    VALUE='SW-SPDT';
+    VALUE='13K';
   end_body;
 end_primitive;
 primitive 'TLV62130RGT_VQFN-16-0R60X0R24_T';
