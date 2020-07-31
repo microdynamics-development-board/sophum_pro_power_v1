@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : sophum_pro_power_v1.brd                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Sun Jul 19 12:42:38 2020                      )
+(    Date/Time        : Wed Jul 29 12:07:58 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,16 +22,16 @@ Design Directory:            '.'
 Old design name:             'C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/PCB/sophum_pro_power_v1.brd'
 New design name:             'C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/PCB/sophum_pro_power_v1.brd'
 
-CmdLine: netrev -$ -i C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/SCH/NETLIST -y 1 -q netrev_constraint_report.xml C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/PCB/#Taaaaag51612.tmp
+CmdLine: netrev -$ -i C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/SCH/NETLIST -y 1 -z -q netrev_constraint_report.xml C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/PCB/#Taaaaae32928.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/SCH/NETLIST/pstchip.dat 
-   Finished reading C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/SCH/NETLIST/pstchip.dat (00:00:00.14)
+   Finished reading C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/SCH/NETLIST/pstchip.dat (00:00:00.07)
 Starting to read C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/SCH/NETLIST/pstxprt.dat 
    Finished reading C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/SCH/NETLIST/pstxprt.dat (00:00:00.00)
 Starting to read C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/SCH/NETLIST/pstxnet.dat 
-   Finished reading C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/SCH/NETLIST/pstxnet.dat (00:00:00.02)
+   Finished reading C:/Users/abcd/Documents/GitHub/sophum_pro_power_v1/SCH/NETLIST/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -65,7 +65,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jul 19 12:42:38 2020
+netrev run on Jul 29 12:07:58 2020
    DESIGN NAME : 'SOPHUM_PRO_POWER_V1'
    PACKAGING ON Feb 15 2016 19:53:59
 
@@ -90,6 +90,6 @@ netrev run on Jul 19 12:42:38 2020
  No oversight detected
  No warning detected
 
-cpu time      0:07:32
-elapsed time  0:00:02
+cpu time      0:01:14
+elapsed time  0:00:01
 
